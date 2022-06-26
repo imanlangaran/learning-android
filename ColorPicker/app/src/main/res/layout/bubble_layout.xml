@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="30dp"
+    android:layout_height="50dp"
+    android:rotation="180"
+    android:backgroundTint="#000">
+
+    <ImageView
+        android:scaleType="fitCenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bubble"
+        android:layout_margin="2dp"
+        android:backgroundTint="#000"/>
+
+    <ImageView
+        android:id="@+id/mBubble"
+        android:scaleType="fitCenter"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bubble"
+        android:backgroundTint="#0f0"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

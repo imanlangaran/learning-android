@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp">
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:shrinkColumns="*" android:stretchColumns="*">
+
+        <TableRow
+            android:padding="6dp"
+            android:background="#4d9acef9">
+            <TextView
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="#868686"
+                android:text="id"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/tv_student_id"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:padding="6dp"
+            android:background="#4d59a4e2">
+            <TextView
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="#868686"
+                android:text="name"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/tv_student_name"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+        </TableRow>
+
+        <TableRow
+            android:padding="6dp"
+            android:background="#4d9acef9">
+            <TextView
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="#868686"
+                android:text="score"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/tv_student_score"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

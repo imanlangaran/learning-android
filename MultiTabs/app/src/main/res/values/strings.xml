@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MultiTabs</string>
+    <string name="title_activity_simple_tab">Simple Tabs</string>
+
+
+
+    <string-array name="titles">
+        <item>Hello Food!</item>
+        <item>Movie Tickets</item>
+        <item>Great Discounts</item>
+        <item>World Travel</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>The easiest way to order food from your favourite restaurants!</item>
+        <item>Book movie tickets for your family and friends</item>
+        <item>Best discounts on every single service we offer</item>
+        <item>Book tickets for any transportation and travel the world!</item>
+    </string-array>
+
+</resources>

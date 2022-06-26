@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General Setting" >
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="notification"
+            android:summaryOff="i wont notify you"
+            android:summaryOn="i wil notify you"
+            android:title="Notifivations" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="viewimage"
+            android:summaryOff="i wont show images"
+            android:summaryOn="i will show images"
+            android:title="View Image" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="user">
+
+        <EditTextPreference
+            android:key="username"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="put your name"
+            android:title="User name"
+            android:inputType="textPersonName"/>
+        <EditTextPreference
+            android:key="userbio"
+            android:selectAllOnFocus="true"
+            android:title="bio"
+            android:summary="your bio"
+            android:inputType="textMultiLine"
+            android:maxLines="6"
+            android:maxLength="300"
+            />
+        <ListPreference
+            android:entries="@array/preferences_list_entry"
+            android:entryValues="@array/preferences_list_values"
+            android:key="list"
+            android:title="items" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyMaterialSharingCard</string>
+    <string name="social_btn_text_1">profile</string>
+    <string name="social_btn_text_2">send message</string>
+    <string name="social_btn_text_3">share</string>
+
+    <string name="content">Hi! My name is MohammadMehdi. I am an android developer. I love Programming, Football and Music.</string>
+</resources>

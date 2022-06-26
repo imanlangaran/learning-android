@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">One touch sign in</string>
+    <string name="finger_title">One-Touch Sign In</string>
+    <string name="finger_desc">Please place your finger on the scanner to verify your identity</string>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Prefrenses</string>
+
+    <array name="preferences_list_entry">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </array>
+
+    <array name="preferences_list_values">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </array>
+</resources>

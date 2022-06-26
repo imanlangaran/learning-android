@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="valueselector_margin_all">10dp</dimen>
+    <dimen name="valueselector_imagesize">52dp</dimen>
+
+</resources>

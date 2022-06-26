@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingTop="20dp"
+    android:paddingHorizontal="10dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/darsad"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHint="@color/custom_primary"
+        >
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mojudi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:hint="Margin"
+            android:inputType="numberDecimal"
+            android:lines="1"
+            android:maxLines="1"
+            android:padding="4dp"
+            android:selectAllOnFocus="true"
+            android:textColor="@color/custom_primary"
+            android:textColorHint="@color/custom_primary"
+            android:textSize="24sp"
+            android:nextFocusRight="@id/darsad" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/darsad"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:gravity="right|center_vertical"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:maxLines="1"
+        android:minWidth="56dp"
+        android:nextFocusUp="@id/darsad"
+        android:padding="4dp"
+        android:selectAllOnFocus="true"
+        android:text="2"
+        android:textColor="@color/custom_primary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@id/lay"
+        app:layout_constraintLeft_toRightOf="@id/lay"
+        app:layout_constraintRight_toLeftOf="@id/per"
+        app:layout_constraintTop_toTopOf="@id/lay" />
+
+    <TextView
+        android:id="@+id/per"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="left"
+        android:text="%"
+        android:textColor="@color/custom_primary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@id/darsad"
+        app:layout_constraintLeft_toRightOf="@id/darsad"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/darsad" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/custom_primary"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/lay"
+        app:layout_constraintBottom_toTopOf="@id/calculator"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <Button
+        android:id="@+id/calculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:padding="16dp"
+        android:text="calculate"
+        android:textColor="@color/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="designed by Iman Langaran."
+        android:textColor="@color/custom_primary"
+        android:textSize="10sp"
+        android:layout_marginBottom="4dp"
+        android:textStyle="italic"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

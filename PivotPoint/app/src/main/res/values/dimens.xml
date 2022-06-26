@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corners_radius">10dp</dimen>
+    <dimen name="stroke_width">2dp</dimen>
+    <dimen name="width">300dp</dimen>
+    <dimen name="tv_text_size">40sp</dimen>
+    <dimen name="text_view_width">100dp</dimen>
+    <dimen name="input_text_size">24sp</dimen>
+    <dimen name="btn_text_size">18sp</dimen>
+</resources>

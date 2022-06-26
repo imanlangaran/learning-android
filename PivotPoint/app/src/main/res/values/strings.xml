@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Pivot Point</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+
+    <string name="calculate">calculate</string>
+    <string name="reset">reset</string>
+
+    <string name="standard_info">پیوت پوینت استاندارد ابتدایی ترین و محبوب ترین نوع پیوت ها است. پیوت پوینت به عنوان سطح پشتیبانی / مقاومت اولیه تعبیر می شود - نقطه ای که روند اصلی تعیین می شود. مقاومت و سطح حمایت از سطح اول به عنوان شاخص های اضافی برعکس یا ادامه روند ممکن است.</string>
+    <string name="woodie_info">پیوت پوینت وودی شبیه به پیوت پوینت استاندارد است ، تفاوت این است که وزن بیشتری به قیمت نزدیک دوره قبل داده می شود.</string>
+    <string name="camarilla_info">پیوت پوینت کاماریلا مجموعه ای از هشت سطح بسیار محتمل است که شبیه به مقادیر پشتیبانی و مقاومت برای یک روند فعلی است. مهمترین چیز این است که این پیوت پوینت ها برای کلیه معامله گران کار می کند و در تنظیم صحیح سفارش های توقف و ضرر و سود هدف کمک می کند.
+</string>
+    <string name="fibonacci_info">سطح محوری فیبوناچی با محاسبه اول نقاط محوری کف تعیین می شود. در مرحله بعد ، محدوده روز قبل را با سطح مربوط به فیبوناچی ضرب کنید. بیشتر معامله گران در محاسبات خود از بازپرداخت 38.2٪ ، 61.8٪ و 100٪ استفاده می كنند. سرانجام ، ارقامی را که به نقطه محوری و voila بدست می آورید اضافه یا تفریق کنید ، سطح نقطه محوری فیبوناچی خود را بدست آورده اید!
+</string>
+    <string name="r3">R3</string>
+    <string name="double_dot">:</string>
+    <string name="r2">R2</string>
+    <string name="r1">R1</string>
+    <string name="pp">PP</string>
+    <string name="s1">S1</string>
+    <string name="s2">S2</string>
+    <string name="s3">S3</string>
+    <string name="designed">designed by Iman Langaran.</string>
+    <string name="copy_to_clipboard">copy to clipboard</string>
+    <string name="soon">Soon</string>
+    <string name="r4">R4</string>
+    <string name="s4">S4</string>
+</resources>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.iman.bluetoothchat.MainActivity">
+
+    <item
+        android:iconTint="@android:color/black"
+        android:title="Connect">
+
+        <menu>
+            <item android:title="create" />
+            <item android:title="join" />
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Disconnect"/>
+
+</menu>
